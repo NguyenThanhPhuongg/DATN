@@ -83,7 +83,7 @@ export default function Cart() {
                         <h2>Thông tin đơn hàng</h2>
                         <div className="cart_total">
                             <span>Tổng tiền (2 sản phẩm) :</span>
-                            <b>5.000.000đ</b>
+                            <b>6.000.000đ</b>
                         </div>
                         <div className="cart_sub">
                             Phí vận chuyển sẽ được tính ở trang
