@@ -10,8 +10,8 @@ const inter = Josefin_Sans({
 });
 
 export const metadata = {
-    title: 'GamePair.',
-    description: 'GamePair - Pair your games with fun!',
+    title: 'ZIARA Clothing',
+    description: 'ZIARA Clothing - Fashion Luxury No1.',
 };
 
 export default function RootLayout({ children }) {

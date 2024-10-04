@@ -18,7 +18,7 @@ export default function login() {
                       </a>
                   </div>
                   <div className="or_span"><span>or</span></div>
-                  <form method="post" action="/account" id="create_customer" accept-charset="UTF-8">
+                  <form method="post" action="/account" id="create_customer">
                       <input type="email" name="customer[email]" placeholder="Email" className="form-field "/>
                       <input type="password" name="customer[password]" placeholder="Password" className="form-field"/>
                       <div className="mb-15 form_text">

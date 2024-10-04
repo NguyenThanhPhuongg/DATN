@@ -1,5 +1,8 @@
-import RootLayoutClient from '@/components/Default';
+
 import { Josefin_Sans } from 'next/font/google';
+import '@/globals.scss';
+import { Store } from '@/context/store';
+import Sidebar from '../components/admin/Sidebar';
 
 const inter = Josefin_Sans({
     weight: ['100', '200', '300', '500', '600', '400', '700'],
@@ -17,7 +20,10 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
         <body className={inter.className}>
-        <RootLayoutClient>{children}</RootLayoutClient>
+        <Store>
+            {children}
+            <Sidebar />
+        </Store>
         </body>
         </html>
     );
